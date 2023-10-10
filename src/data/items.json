@@ -8,19 +8,19 @@
   {
     "id":2,
     "name": "Phone",
-    "price": .,
-    "imgURL": "/imgs/.jpg"
+    "price": 1129.00,
+    "imgURL": "/imgs/phone.jpg"
   },
   {
     "id":3,
     "name": "Car",
-    "price": .,
-    "imgURL": "/imgs/.jpg"
+    "price": 54990.00,
+    "imgURL": "/imgs/car.jpg"
   },
   {
     "id":4,
     "name": "Mango",
-    "price": .,
-    "imgURL": "/imgs/.jpg"
+    "price": 1.97,
+    "imgURL": "/imgs/mango.jpg"
   }
 ]
