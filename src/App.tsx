@@ -5,7 +5,7 @@ import { Store } from "./pages/Store"
 import { About } from "./pages/About"
 import { Navbar } from "./components/Navbar"
 
-
+//App holds all the routes
 
 function App() {
   return (
