@@ -12,7 +12,7 @@ type StoreItemProps = {
 // StoreItem component receives props as arguments which are imported at the Store.tsx from data
 export function StoreItem({ id, name, price, imgUrl }: 
 StoreItemProps) {
-  const quantity = 1
+  const quantity = 0
   return (
     <Card className="h-100">
       <Card.Img
@@ -30,7 +30,7 @@ StoreItemProps) {
           {quantity === 0 ? (
           <Button className="w-100">+ Add To Cart</Button>
           ) : (
-          <div className="d-flex align-items-center flex column" style={{ gap: ".5rem"}}>
+          <div className="d-flex align-items-center flex-column" style={{ gap: ".5rem"}}>
             <div className="d-flex align-items-center justify-content-center" style={{ gap: ".5rem"}}>
             <Button>-</Button>
             <div><span className="fs-3"> {quantity}</span> in cart</div>
